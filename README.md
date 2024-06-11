@@ -1,4 +1,4 @@
-# ProjectArtevelde-RockWerchter
+# Project-Artevelde RockWerchter
 Revamped a past Rock Werchter website (Artevelde UAS project) using JavaScript for dynamic features like filtering artist schedules &amp; adding live set previews. Explored Node.js for backend data. A project that rocked my web dev skills!
 
 As a programming student at Artevelde University of Applied Sciences, music came alive for me in a whole new way – through code! My project? Revamping a past website for the legendary Rock Werchter festival. My mission:  breathe new life into it using JavaScript and Node.js, making it a more dynamic and engaging experience for festivalgoers.
