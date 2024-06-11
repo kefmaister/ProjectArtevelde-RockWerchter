@@ -1,0 +1,168 @@
+/*#*/
+body {
+  background-color: black;
+  color: white;
+}
+.lock-scroll {
+  overflow: hidden;
+}
+/*navigation*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 1.3rem 0;
+}
+#navigation {
+  display: flex;
+  font-family: "bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#navigation > a {
+  margin-right: 2rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+#navigation > a:hover {
+  color: #fd440c;
+}
+a {
+  color: white;
+}
+/*timer*/
+#timer {
+  background-color: rgba(37, 37, 37, 0.692);
+
+  font-family: "bungee", sans-serif;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+
+  padding: 1.3rem 0;
+}
+#timer > p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+/*line up*/
+#lineUp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.highlight {
+  color: #fd440c;
+}
+.spacing {
+  margin-right: 0.8rem;
+}
+.descriptionShow {
+  flex: 1 0 30%;
+  padding: 1rem;
+
+  cursor: pointer;
+}
+
+.descriptionShow img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.descriptionShow h2 {
+  font-family: "bungee", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+
+  margin-bottom: 0.5rem;
+}
+.descriptionShow p {
+  font-family: "bungee", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+
+  margin-bottom: 2rem;
+}
+/*animation lineup*/
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+/*one lineUp description and socials*/
+#info {
+  color: black;
+  display: flex;
+  padding: 5rem;
+}
+#info a {
+  color: black;
+}
+#info img {
+  width: 50%;
+  height: min-content;
+  padding-right: 1.5rem;
+}
+#info h2 {
+  font-family: "bungee", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+
+  margin-bottom: 2rem;
+}
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.5rem;
+}
+.infoContent span,
+.infoContent h2 {
+  align-self: center;
+  text-align: center;
+}
+.infoContent span {
+  font-family: "bungee", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+
+  margin-bottom: 1rem;
+}
+.infoContent p {
+  width: 100%;
+  font-family: "neulis-neue", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+.socials {
+  display: flex;
+  justify-content: space-around;
+
+  font-family: "bungee", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+  margin-bottom: 2rem;
+}
+.fa-brands:hover {
+  color: #fd440c;
+}
+/*container for description*/
+#container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  width: 50vw;
+  background-color: white;
+  overflow: hidden;
+  transition: right 0.3s;
+}
